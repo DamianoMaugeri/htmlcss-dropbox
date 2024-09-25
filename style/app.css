@@ -28,9 +28,15 @@ h1{
     font-size: 80px;
 }
 
+h2{
+    font-size: 40px;
+}
+
 /* ROOT */
 
-
+:root{
+    --brand-color: #0061ff;
+}
 
 
 /*LAYOUT*/
@@ -42,6 +48,16 @@ h1{
     max-width: 1200px;
     margin: 0 auto;
 }
+
+.container-sm{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+main > *:not(:first-child){
+    padding-top: 150px;
+}
+
 
 .row{
     display: flex;
@@ -63,7 +79,7 @@ h1{
 
 /*UTILITY*/
 .dark-btn a{
-    background-color: #0061ff;
+    background-color: var(--brand-color);
     color: #ffffff;
 }
 
@@ -101,7 +117,7 @@ h1{
 }
 
 .nav-btn{
-    background-color:#0061ff ;
+    background-color:var(--brand-color);
     color: white;
 }
 
@@ -147,8 +163,26 @@ h1{
 
 /*PLANE SECTION*/
 
+.shop-plane{
+    height: 20px;
+    width: 20px;
+    border-radius: 999px;
+    background-color: #ffffff;
+    border: 2px solid gray;
+    margin-right: 5px;
+}
+.shop-plane:active{
+    border: 5px solid var(--brand-color);
+}
 
+.shop-button{
+    margin-right: 50px; 
+        
+}
 
+.business-plane h2{
+    margin-bottom: 65px;
+}
 
 
 
