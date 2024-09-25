@@ -21,7 +21,7 @@ img {
 
 html{
     font-family: "Open Sans", sans-serif;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 h1{
@@ -76,6 +76,10 @@ main > *:not(:first-child){
     width: calc(100% / 3);
 }
 
+.col-50{
+    max-width:50%;
+}
+
 
 /*UTILITY*/
 .dark-btn a{
@@ -87,11 +91,15 @@ main > *:not(:first-child){
     text-decoration: underline ;
 }
 
+.inline-block{
+    display: inline-block;
+}
 
 /*WIDGET*/
 .btn a{
     line-height: 40px;
     padding: 15px;
+    display: inline-block;
 }
 
 
@@ -143,7 +151,7 @@ main > *:not(:first-child){
 
 .hero .dark-btn,
 .unistall{
-    margin-bottom: 40px;
+    margin-bottom: 35px;
 
 }
 .hero .title-row{
@@ -162,6 +170,11 @@ main > *:not(:first-child){
 
 
 /*PLANE SECTION*/
+.business-plane .container-sm{
+    display: flex;
+    row-gap: 50px;
+    flex-wrap: wrap;
+}
 
 .shop-plane{
     height: 20px;
@@ -184,9 +197,91 @@ main > *:not(:first-child){
     margin-bottom: 65px;
 }
 
+.business-card{
+    padding: 0 25px;
+}
+
+.business-card-content{
+    border: 1px solid black;
+    padding: 0 30px;
+    height: 100%;
+}
+
+.plane-id{
+    text-align: center;
+    padding: 5px 0;
+    border-top: 1px  solid black;
+    border-left: 1px  solid black;
+    border-right: 1px  solid black;
+}
+
+.business-card h3{
+    font-size: 22px;
+    padding:  35px 0px 20px 0px;
+}
+
+.business-card .price{
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+
+.business-card .period{
+    color: gray;
+    margin-bottom: 50px;
+}
+
+.business-card .service-avaible>*{
+    margin-bottom: 25px;
+}
+
+.business-card .btn{
+    margin: 30px 0px;
+}
+
+.business-card .cta-buy a{
+    padding: 5 px;
+    text-decoration: underline;
+    color: #7171F5;
+    font-weight:bold ;
+}
+
+.business-card hr{
+    margin: 50px 0;
+    max-width: 20%;
+    color: black;
+}
 
 
+h4{
+    margin-bottom:  30px; 
+}
+
+.plane-description li{
+    margin-bottom: 25px;
+}
+
+
+.plane-description i{
+    color: var(--brand-color);
+    font-weight: bold;
+}
+
+.business-plane .teams{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.business-title{
+    margin: 0 30px
+}
+.business-plane .btn a{
+    width: 100%;
+    text-align: center;
+}
 /* INFO SECTION*/
+
+
 
 
 
