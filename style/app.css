@@ -97,8 +97,8 @@ main > *:not(:first-child){
 
 /*WIDGET*/
 .btn a{
-    line-height: 40px;
-    padding: 15px;
+    line-height: 30px;
+    padding: 15px 10px;
     display: inline-block;
 }
 
@@ -169,14 +169,14 @@ main > *:not(:first-child){
 
 
 
-/*PLANE SECTION*/
-.business-plane .container-sm{
+/* BUSINESS PLAN SECTION*/
+.business-plan .container-sm{
     display: flex;
     row-gap: 50px;
     flex-wrap: wrap;
 }
 
-.shop-plane{
+.shop-plan{
     height: 20px;
     width: 20px;
     border-radius: 999px;
@@ -184,7 +184,7 @@ main > *:not(:first-child){
     border: 2px solid gray;
     margin-right: 5px;
 }
-.shop-plane:active{
+.shop-plan:active{
     border: 5px solid var(--brand-color);
 }
 
@@ -193,7 +193,7 @@ main > *:not(:first-child){
         
 }
 
-.business-plane h2{
+.business-plan h2{
     margin-bottom: 65px;
 }
 
@@ -207,7 +207,7 @@ main > *:not(:first-child){
     height: 100%;
 }
 
-.plane-id{
+.plan-id{
     text-align: center;
     padding: 5px 0;
     border-top: 1px  solid black;
@@ -256,17 +256,17 @@ h4{
     margin-bottom:  30px; 
 }
 
-.plane-description li{
+.plan-description li{
     margin-bottom: 25px;
 }
 
 
-.plane-description i{
+.plan-description i{
     color: var(--brand-color);
     font-weight: bold;
 }
 
-.business-plane .teams{
+.business-plan .teams{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -275,7 +275,7 @@ h4{
 .business-title{
     margin: 0 30px
 }
-.business-plane .btn a{
+.business-plan .btn a{
     width: 100%;
     text-align: center;
 }
