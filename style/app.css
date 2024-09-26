@@ -486,3 +486,30 @@ h4{
     padding:100px 0;
 }
 /*FOOTER*/
+
+.main-footer{
+    color: var(--whithe-color);
+    background-color: black;
+}
+
+.footer-container{
+    padding-top: 70px ;
+}
+
+.main-footer h3{
+    line-height: 120px;
+    font-size: 24px;
+}
+
+.main-footer li{
+    line-height: 35px;
+}
+
+.main-footer .region{
+    line-height: 120px;
+}
+
+.region span{
+    margin-right: 5px;
+    font-size: 16px;
+}
