@@ -318,11 +318,19 @@ h4{
 
 
 
-/* TASK SECTION*/
+/* OPERATION SECTION*/
 
+.operation-card{
+    padding: 24px;
+}
 
+.operation-card p{
+    margin: 20px 0;
+}
 
-
+.operation h2{
+    margin-bottom: 40px;
+}
 
 
 /* COLLAB SECTION*/
